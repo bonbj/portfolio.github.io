@@ -4,7 +4,78 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.title {
+.main{
+    background-image: linear-gradient(rgb(47, 77, 167),rgb(0, 0, 97));
+    padding: 40px;
+}
+
+.sheet {
+    margin: 0 auto;
+    background-color: rgb(238, 238, 218);
+    min-width: 60%;
+    max-width: 60%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 18px 18px 3px rgba(0,0,0,0.3);
+}
+
+.sheet > * {
+    border-bottom: 2px solid royalblue;
+    padding: 20px;
+    border-left: 1px solid royalblue;
+    border-right: 1px solid royalblue;
+}
+
+.sheet-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+}
+
+.text-link {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.text-link:visited {
+    color: rgb(119, 35, 119);
+}
+
+.text-head{
+    border-top: 2px solid royalblue;
+}
+
+.sheet-technology {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.technology-list {
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
     text-align: center;
-    margin-top: 10%;
+    color: rgb(19, 19, 19);
+}
+
+.technology-list::first-line {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.text-about{
+    text-align: justify;
+    display: flex;
+}
+
+.text-img-i {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.text-img-i:hover {
+    transition: 500ms;
+    width: 200px;
+    z-index: 2;
 }
