@@ -1,65 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- sheet -->
-    <main class="main">
-      <section class="sheet">
-        <p class="sheet-text text-head">
-          Olá meu nome é joão victor, Sou desenvolvedor full stack, no tempo
-          livre gosto de fazer desafios de programação entre elas front-ends bem
-          “enfeitados”, questões de lógica de programação e “projetinhos” web,
-          abaixo tem uma lista de tecnologias que sei.
-        </p>
-        <article class="sheet-technology">
-          <ul class="technology-list">
-            <li>Banco</li>
-            <li>MySQL</li>
-          </ul>
-          <ul class="technology-list">
-            <li>competências</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>Git</li>
-          </ul>
-          <ul class="technology-list">
-            <li>back-end</li>
-            <li>Hibernate</li>
-            <li>Java</li>
-            <li>JPA</li>
-            <li>Mavem</li>
-          </ul>
-          <ul class="technology-list">
-            <li>Front-end</li>
-            <li>Axios</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-            <li>JavaScript</li>
-            <li>Jquery</li>
-            <li>JSP</li>
-            <li>ReactJS</li>
-          </ul>
-        </article>
-        <p class="sheet-text">
-          Para me encontrar não é difícil, é só apenas acessar uma das redes
-          <a class="text-link" href="https://www.linkedin.com/in/jo%C3%A3o-victor-pereira-441374183/" target="_blank">Linkedin</a>,
-          <a class="text-link" href="https://github.com/bonbj">Github</a>,
-          email : jaotipereira@gmail.com
-        </p>
-        <div class="text-about">
-            <p class="sheet-text">
-            E esse sou eu, fiz curso de Desenvolvedor Web
-            no IFPE - jaboatão e um curso de Front-end na Accenture Start latam</p><img class="text-img-i" src="./img/I.jpg" width="100px" />
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/colors.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <main class="content">
+    <dl class="profile">
+      <dt class="name">
+        <h1>João <span>Victor</span></h1>
+        <h2>Desenvolvedor full stack</h2>
+      </dt>
+      <dd class="description">
+        <p>Olá meu nome é João Victor, sou desenvolvedor web full stack.</p>
+        <br>
+        <p>No tempo livre gosto de fazer desafios de programação entre eles front-ends bem "enfeitados", questões de
+          lógica de programação e "projetinhos" web. Esse sou eu, fiz curso de desenvolvedor Web no IFPE - jaboatão e
+          um curso de Front-end na <strong>Accenture Start latam</strong>.</p>
+      </dd>
+      <dd class="technologies">
+        <h3>Tecnologias que domino:</h3>
+        <div class="techs">
+          <img src="./img/languages/c.svg" alt="Linguagem de programação C" />
+          <img src="./img/languages/c++.svg" alt="Linguagem de programação C++" />
+          <img src="./img/languages/python.svg" alt="Linguagem de programação Python" />
+          <img src="./img/languages/git.svg" alt="Git" />
+          <img src="./img/languages/mysql.svg" alt="Banco de dados MySQL" />
+          <img src="./img/languages/java.svg" alt="Linguagem de programação Java" />
+          <img src="./img/languages/html5.svg" alt="html5" />
+          <img src="./img/languages/css3.svg" alt="css3" />
+          <img src="./img/languages/javascript.svg" alt="Linguagem de programação Javascript" />
+          <img src="./img/languages/react.svg" alt="React" />
         </div>
-      </section>
-    </main>
-    <!-- Events -->
-  </body>
+      </dd>
+    </dl>
+
+    <div class="profile-avatar">
+      <img src="./img/I.jpg" alt="João Victor" />
+      <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-pereira-441374183/" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/bonbj" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="mailto:jaotipereira@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+
 </html>
