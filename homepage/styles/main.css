@@ -155,3 +155,8 @@ body {
     margin-top: 30px;
   }
 }
+
+
+.ionic-icon {
+  width: 50px !important;
+} 
